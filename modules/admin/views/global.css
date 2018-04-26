@@ -1,0 +1,375 @@
+
+/*----------------------------------------
+Name: global.css
+Developed by:
+Date Created:
+Last Updated:
+Copyright:
+----------------------------------------*/
+
+/* Imports
+----------------------------------------*/
+@import url("reset.css");
+@import url("externalLinks.css");
+
+
+/* Elements
+----------------------------------------*/
+body
+{
+	background-color:#e6e6e6;
+}
+
+body, p, td, th, li
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:.875em;
+	line-height:1.5em;
+	color:#000000;
+}
+
+
+
+p
+{
+	margin: 0 0 1em 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+/*--- Link Styles ---*/
+a:link, a:visited
+{
+	color:#ec1c26;
+	text-decoration:none;
+}
+
+a:hover, a:active
+{
+	color:#ec1c26;
+	
+}
+
+h1
+{
+	color:#ec1c26;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 3em;
+	text-align: center;
+	line-height: 50px;
+	text-shadow: 2px 2px 2px #000;
+}
+
+h2
+{
+	color:#000;
+	margin:.825em 0 .5em 0;
+	font-size:1.75em;
+}
+
+h3
+{
+	color:#000;
+	margin:.825em 0 .5em 0;
+	font-size:1.5em;
+}
+
+h4
+{
+	font-family: Arial, Helvetica, sans-serif;
+	color:#fff;
+	text-align: center;
+	font-size:1.25em;
+}
+
+h5
+{
+	color:#ec1c26;
+	
+	font-size:1.125em;
+}
+
+h6
+{
+	color:#ec1c26;
+	margin:.825em 0 .5em 0;
+	font-size:1em;
+}
+
+ul
+{
+	margin-left:25px;
+	list-style-type:none;
+}
+
+ol
+{
+	margin-left:25px;
+	
+}
+
+blockquote	{margin: 0 0 18px 18px; color:#666666; font-style: italic;}
+strong		{font-weight:bold;}
+em		{font-style:italic;}
+
+
+/* Standard Definitions
+----------------------------------------*/
+#logo {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+	
+	padding: 20px;
+	border: 1px solid #ccc;
+	text-align: center;
+	margin: 10px 0;
+	background-color: #FFF;
+	}
+
+.left_bottom {	
+	margin-bottom :10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+	background-color: #FFF;
+	padding: 10px;
+	/*border: 1px solid #ccc;*/			
+	}
+	
+	
+
+#right {
+	margin-bottom :10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+	background-color: #FFF;
+		
+	}
+	
+
+#left h3  , .left_bottom h3{
+	font-size: 18px;
+	background-image:url("alire.jpg");
+	background-repeat:no-repeat;
+	padding: 9px 0 9px 40px;
+	margin: 0 0 10px 0;
+	font-weight: bold;
+	font-family:"Comic Sans MS", Gadget, sans-serif;
+	color: #333;
+	}
+
+#right p {
+	-moz-column-count: 2;
+	-moz-column-gap: 20px;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 20px;
+	column-count: 2;
+	column-gap: 20px;
+	}	
+#right h2 {
+	margin: 10px;
+	font-family: "Bowlby One", Geneva, sans-serif;
+	color: #ec1c26;
+	}
+	
+#right h3 {
+	margin: 10px;
+	font-family: "Francois One", Geneva, sans-serif;
+	color: #ec1c26;
+	}	
+
+
+input{ border:none; }
+.clearThis 	{clear:both;}
+.small		{font-size:.625em;}
+.large		{font-size:1em;}
+.soft		{color:#D3D3D3;}
+.hide		{display:none;}
+p.last		{margin-bottom:0px;}
+
+/* Header
+----------------------------------------*/
+#header
+{
+	
+}
+
+		
+	
+	
+	/* CSS Rollover (Sprites) - Advanced Users!
+	----------------------------------------*/
+	
+	/*Each link must have a unique ID - Include all of your links here - Remove if not using!*/
+	li#navHome a:hover, li#navWork a:hover, li#navServices a:hover, li#navContact a:hover {background-position:0 -20px; /*Set to height of image !must be negative!*/}
+		
+/* Main Content
+----------------------------------------*/
+
+.lirej {
+	text-align: center;
+	}
+	
+#ij {
+	-moz-box-shadow: 0px 1px 8px 0px #888888;
+	-webkit-box-shadow: 0px 1px 8px 0px #888888;
+	box-shadow: 0px 1px 8px 0px #888888;
+	width: 300px;
+	height: 450px;
+	margin: 10px auto;
+	}
+	
+
+.fromDate{
+	text-align: center;
+	}
+	
+.fromDate p{
+	color: #FFF;
+	text-align: center;
+	}
+	
+.fromDate #jounale_inp{
+	/*font-size: 18px;
+	color: #999;
+	height: 26px;
+	width: 242px;	
+	border: 1px solid #999;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	padding-left: 3px;
+	
+	background-image:url(date.jpg);
+	background-repeat:no-repeat;
+	padding: 9px 0 9px 50px;*/
+}
+
+.button {
+	font-size: 18px;
+	background-image: url(../images/nav/button.png);
+	background-repeat: no-repeat;
+	background-color:transparent;
+	color: #333;
+	padding: 3px 23px;
+	cursor: pointer;
+	height: 30px;
+	width: 115px;
+	}
+
+.button:hover {
+	background-image: url(../images/nav/buttonh.png);
+	background-repeat: no-repeat;
+	}
+	
+#left ul li , .left_bottom ul li{
+	list-style: circle;
+	color: #ec1f26;
+	margin-bottom: 5px;	
+}
+	
+#left ul li a{
+	font-size: 1em;
+	line-height: 25px;
+	color: #ec1f26;
+	font-family: Arial, Helvetica, sans-serif;	
+}
+
+#left ul li a:hover{
+	color: #ec1f21;
+	text-decoration: underline;	
+}
+
+#article {margin: 10px;}
+#article h2{
+	background: url("articles.jpg") no-repeat scroll 0 20% transparent;
+	padding: 9px 0 9px 50px;
+	color: #ec1f26;
+	line-height: 37px;
+	}
+#article p{ color:#666; }
+
+/* Footer
+----------------------------------------*/
+#footer
+{
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+	background-color: #FFF;	
+}
+
+#footer p 
+{
+	font-size: 13px;
+	color: #666;
+	line-height: 50px;
+	text-align: right;
+	padding-right: 25px;
+}
+
+#tablecalendar {margin :10px auto;  }
+
+#tablecalendar tbody{width :700px}
+#tablecalendar tbody td{width :100px}
+
+#tablecalendar tbody th , #tablecalendar tbody td , #tablecalendar tbody td div {font-size:15px; font-weight:bold;  }
+#tablecalendar tbody td a {font-size:20px;   width:100%; }
+
+
+/*******************************pagination************************************/
+
+/*ul{border:0; margin:0; padding:0;}*/
+
+#pagination-flickr {   }
+
+#pagination-flickr li{
+border:0; margin:0; padding:0;
+font-size:11px;
+list-style:none;
+}
+#pagination-flickr a{
+border:solid 1px #DDDDDD;
+margin-right:2px;
+}
+#pagination-flickr .previous-off,
+#pagination-flickr .next-off {
+color:#666666;
+display:block;
+float:left;
+font-weight:bold;
+padding:3px 4px;
+}
+#pagination-flickr .next a,
+#pagination-flickr .previous a {
+font-weight:bold;
+border:solid 1px #FFFFFF;
+}
+#pagination-flickr .active{
+color:#000;
+font-weight:bold;
+display:block;
+float:left;
+padding:4px 6px;
+}
+#pagination-flickr a:link,
+#pagination-flickr a:visited {
+color:red;
+display:block;
+float:left;
+padding:3px 6px;
+text-decoration:none;
+}
+#pagination-flickr a:hover{
+border:solid 1px #666666;
+}
+
+
